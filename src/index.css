@@ -1,0 +1,199 @@
+
+body {
+  margin: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+html{
+  color: rgb(10, 10, 46);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+  #header{
+    display:flex;
+    position:fixed;
+    top:0px;
+    background-color: rgb(10, 10, 46);
+    color:white; 
+    height:10vh;
+    width:100vw;
+    box-sizing: border-box;
+  }
+  #error{
+    width: 10%;
+  
+  }
+  #Email{
+    width:10%;
+
+  }
+#image{
+  width:60%;
+}
+#UpdateProfileLink{
+width:10%;
+}
+#logOutButton{
+width:10%;
+
+}
+.headerClass{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+
+}
+#error{
+  width:10%;
+  
+}
+#header h1{
+  margin: 0px;
+  height:10vh;
+  /* width: 100vw; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+#content{
+  background-color: white;
+  height:3000vh;
+  width:3000vw;
+  }
+  #footer{ 
+  position:fixed;
+  bottom:0px;
+  background-color: rgb(10, 10, 46);
+  color:white;
+  height:10vh;
+  width: 100vw;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+  #footer h1{
+      margin: 0px;
+  }
+
+  .divClass .crossOuter{
+    height:15px;
+    width:15px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    cursor:pointer;
+  }
+  .mOuter{
+    height:15px;
+    width:15px;
+    position:absolute;
+    left:0px;
+    top:8px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    cursor:pointer;  
+  }
+  #tomove{
+    position:absolute;
+    bottom:0px;
+    left :0px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: black;
+    height:10%;
+    color:white;
+    width:100%;
+  }
+  /* Context.css */
+
+
+#context div{
+  height:30px;
+  background-color:rgb(238, 232, 232);
+  cursor:pointer;
+}
+#context div:hover{
+  background-color:rgb(230, 221, 221);
+  /* border:solid black 1px; */
+}
+#contextMenu{
+  background-color: red;
+  height:auto;
+  width:auto;
+  display:none;
+}
+#contextMenu div{
+  /* background-color:white; */
+  cursor:pointer;
+  height:25px;
+  width:190px;
+}
+
+
+/* #otherBackground{
+  background-color: yellowgreen;
+  width:162px;
+} */
+#ok{
+  cursor:pointer;
+}
+#number{
+  height:auto;
+  width:100px;
+  background-color: orange;
+}
+#number div{
+  height:25px;
+  width:190px;
+  /* background-color:white; */
+}
+#style{
+height:auto;
+width:100px;
+background-color:red;
+}
+
+
+#textInput{
+  background-color: red;
+}
+.color{
+  color:rgb(10, 10, 46);
+}
+.headings{
+  background-color:rgb(10, 10, 46);
+  color:white;
+  height:10vh;
+  /* width:100vw; */
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.honey{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.displayNone{
+  display:none;
+}
+#save{
+  cursor:pointer
+}
+ 
